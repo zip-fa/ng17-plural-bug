@@ -14,11 +14,11 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   messages: any[] = ['Message 1'];
   messageMapping = {
-    'zero': $localize`:@@plurals.days_0:дней`,
-    'one': $localize`:@@plurals.days_1:день`,
-    'few': $localize`:@@plurals.days_2:дня`,
-    'many': $localize`:@@plurals.days_0:дней`,
-    'other': $localize`:@@plurals.days_0:дней`
+    'zero': `дней`,
+    'one': `день`,
+    'few': `дня`,
+    'many': `дней`,
+    'other': `дней`
   };
 
   constructor() {
